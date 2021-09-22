@@ -98,17 +98,16 @@ a {
 #container {
     width: 80%;
     margin: 0 auto;
-    /* debug */
-    height: 2150px;
-    background-color: blueviolet;
 }
 
-.content {
-    /* debug */
-    width: 70%;
-    height: 500px;
-    margin: 50px auto;
-    background-color: chartreuse;
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content text {
+    float: right;
 }
 
 /* footer */
