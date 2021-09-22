@@ -72,7 +72,7 @@ a {
     padding: 20px;
 }
 
-#buttons {
+.buttons {
     width: 100%;
     text-align: center;
     margin-top: 30px;
@@ -97,6 +97,7 @@ a {
     width: 80%;
     margin: 0 auto;
 }
+
 .content {
     height: 500px;
     padding: 50px 20px;
@@ -105,13 +106,16 @@ a {
     float: left;
     width: 60%;
 }
+
 .text {
     float: left;
     width: 40%;
 }
+
 .title_cnt {
     font-size: 50px;
 }
+
 .text_cnt {
     font-size: 25px;
 }
@@ -123,6 +127,26 @@ a {
 #last_img {
     width: 70%;
     margin: 0 15%;
+}
+
+#download {
+    height: 100px;
+    padding: 30px 10px;
+}
+
+#title_dwn {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#button_dwn {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(119, 203, 231);
+    border-color: rgb(119, 203, 231);
 }
 
 /* footer */
