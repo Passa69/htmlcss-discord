@@ -9,6 +9,8 @@
 #jumbo {
     background-image: url('../img/jumbo.png');
     height: 70vh;
+    background-position: center;
+    background-size: cover;
 }
 
 #menu {
@@ -95,9 +97,32 @@ a {
     width: 80%;
     margin: 0 auto;
 }
-
+.content {
+    height: 500px;
+    padding: 50px 20px;
+}
+.content img {
+    float: left;
+    width: 60%;
+}
 .text {
+    float: left;
+    width: 40%;
+}
+.title_cnt {
+    font-size: 50px;
+}
+.text_cnt {
+    font-size: 25px;
+}
 
+#last_cnt {
+    text-align: center;
+}
+
+#last_img {
+    width: 70%;
+    margin: 0 15%;
 }
 
 /* footer */
