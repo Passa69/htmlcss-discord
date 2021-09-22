@@ -2,10 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Whitney', sans-serif;
-    font-family: 'Whitney Semibold', sans-serif;
-    font-family: 'Whitney Book', sans-serif;
     font-family: 'Whitney Light', sans-serif;
 
   }
@@ -28,7 +24,7 @@
 ul {
     position: absolute;
     top: 3px;
-    left: 45vh;
+    left: 40vh;
     display: inline-block;
     width: 70%;
 }
@@ -41,8 +37,8 @@ li {
 a {
     color: white;
     text-decoration: none;
-    padding: 15px;
-    font-size: 15px;
+    padding: 12px;
+    font-size: 20px;
 }
 
 #sign {
@@ -55,6 +51,47 @@ a {
     border-radius: 20px;
     border-color: white;
     cursor: pointer;
+}
+
+#title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title strong {
+    font-size: 70px;
+    color: white;
+    margin: 50px;
+}
+
+#title p {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+}
+
+#buttons {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.down {
+    margin: 20px;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border-color: white;
+}
+
+.two {
+    color: white;
+    background-color: black;
+    border-color: black;
 }
 
 /* main */
