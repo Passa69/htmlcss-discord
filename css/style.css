@@ -14,7 +14,7 @@
 }
 
 #menu {
-    width: 100%;
+    width: 97%;
     height: 100px;
     padding: 15px;
     text-align: center;
@@ -153,6 +153,29 @@ a {
 footer {
     margin-top: 50px;
     background-color: #23272a;
-    /* debug */
-    height: 400px;
+}
+
+#advice {
+    height: 300px;
+}
+
+#menu_last {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0 50px 0;
+    border-top: 1px solid rgb(119, 202, 230);
+}
+
+#logo_last {
+    display: inline-block;
+}
+
+#registration {
+    float: right;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(119, 203, 231);
+    border-color: rgb(119, 203, 231);
 }
